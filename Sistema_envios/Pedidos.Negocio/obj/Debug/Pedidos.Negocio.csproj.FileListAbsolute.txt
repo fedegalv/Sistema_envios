@@ -1,0 +1,16 @@
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\Pedidos.Negocio.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\Pedidos.Negocio.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\Entidades.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\Sistema_enviosBD.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\EntityFramework.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\Entidades.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\Entidades.dll.config
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\Sistema_enviosBD.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\Sistema_enviosBD.dll.config
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\EntityFramework.xml
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Debug\es\EntityFramework.resources.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\obj\Debug\Pedidos.Negocio.csprojAssemblyReference.cache
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\obj\Debug\Pedidos.Negocio.csproj.CoreCompileInputs.cache
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\obj\Debug\Pedidos.Negocio.csproj.CopyComplete
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\obj\Debug\Pedidos.Negocio.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\obj\Debug\Pedidos.Negocio.pdb
