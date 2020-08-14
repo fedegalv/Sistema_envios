@@ -37,3 +37,9 @@ input[type="select"] {
     }
 }
 
+.margin-top15 {
+    margin-top: 15px;
+}
+.margin-bottom20 {
+    margin-bottom: 20px;
+}
