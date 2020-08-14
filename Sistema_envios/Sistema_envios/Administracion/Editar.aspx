@@ -1,7 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Agregar.aspx.cs" Inherits="Sistema_envios.Administracion.Agregar" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Editar.aspx.cs" Inherits="Sistema_envios.Administracion.Editar" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="form-horizontal">
+    div class="form-horizontal">
         <h4>Crear nuevo pedido</h4>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
@@ -78,5 +77,4 @@
             </div>
         </div>
     </div>
-
 </asp:Content>

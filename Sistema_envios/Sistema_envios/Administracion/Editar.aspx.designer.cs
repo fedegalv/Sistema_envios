@@ -11,7 +11,7 @@ namespace Sistema_envios.Administracion
 {
 
 
-    public partial class Agregar
+    public partial class Editar
     {
 
         /// <summary>

@@ -123,3 +123,5 @@ D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\obj\Debug\Sistema_envios
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\obj\Debug\Sistema_envios.Web.csproj.CopyComplete
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\obj\Debug\Sistema_envios.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\obj\Debug\Sistema_envios.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Sistema_envios.FuncionesAuxiliares.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Sistema_envios.FuncionesAuxiliares.pdb

@@ -171,6 +171,8 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Administracion\Agregar.aspx" />
+    <Content Include="Administracion\CambiarEstado.aspx" />
+    <Content Include="Administracion\Editar.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -434,6 +436,20 @@
     <Compile Include="Administracion\Agregar.aspx.designer.cs">
       <DependentUpon>Agregar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Administracion\CambiarEstado.aspx.cs">
+      <DependentUpon>CambiarEstado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\CambiarEstado.aspx.designer.cs">
+      <DependentUpon>CambiarEstado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\Editar.aspx.cs">
+      <DependentUpon>Editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\Editar.aspx.designer.cs">
+      <DependentUpon>Editar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -516,6 +532,10 @@
     <ProjectReference Include="..\Pedidos.Negocio\Pedidos.Negocio.csproj">
       <Project>{34E55DD5-C0A0-47E5-A2F4-F4455322F25B}</Project>
       <Name>Pedidos.Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sistema_envios.FuncionesAuxiliares\Sistema_envios.FuncionesAuxiliares.csproj">
+      <Project>{05FBB5C3-E8D3-4946-9002-0E728CA946F1}</Project>
+      <Name>Sistema_envios.FuncionesAuxiliares</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
