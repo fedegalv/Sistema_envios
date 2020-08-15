@@ -5,16 +5,17 @@
         <h4>Crear nuevo pedido</h4>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
-        <%-- TEXTBOX PROVEEDOR --%>
         <div class="form-row">
+            <%-- TEXTBOX PROVEEDOR --%>
             <div class="form-group col-md-6">
-                <asp:Label runat="server" AssociatedControlID="proveedor" CssClass="col-md-2 control-label">proveedor</asp:Label>
+                <asp:Label runat="server" AssociatedControlID="proveedor" CssClass="col-md-2 control-label">Proveedor</asp:Label>
                 <div class="col-md-5">
                     <asp:TextBox runat="server" ID="proveedor" CssClass="form-control" />
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="proveedor"
                         CssClass="text-danger" ErrorMessage="El campo Proveedor es obligatorio." />
                 </div>
             </div>
+            <%-- TEXTBOX ESTADO PEDIDO --%>
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="estadoPedido" CssClass="col-md-4 control-label">Estado pedido: </asp:Label>
                 <div class="col-md-5">
@@ -74,7 +75,7 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-5">
-                <asp:Button runat="server" ID="btnRegistrar" Text="Registrarse" CssClass="btn btn-primary" OnClick="btnRegistrar_Click" />
+                <asp:Button runat="server" ID="btnRegistrar" Text="Crear nuevo pedido" CssClass="btn btn-primary" OnClick="btnRegistrar_Click" />
             </div>
         </div>
     </div>

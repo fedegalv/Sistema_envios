@@ -13,6 +13,6 @@ namespace Sistema_enviosBD
         Pedido ObtenerPedido(int id);
         void Agregar(Pedido pedido);
         void Actualizar(Pedido pedido);
-        void Eliminar(int id);
+        void Eliminar(Pedido pedido);
     }
 }

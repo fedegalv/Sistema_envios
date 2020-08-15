@@ -37,9 +37,11 @@ namespace Sistema_enviosBD
             entidadesDb.SaveChanges();
         }
 
-        public void Eliminar(int id)
+        public void Eliminar(Pedido pedido)
         {
-            throw new NotImplementedException();
+            var entrada = entidadesDb.Entry(pedido);
+            entrada.State = EntityState.Deleted;
+            entidadesDb.SaveChanges();
         }
 
         public Pedido ObtenerPedido(int id)

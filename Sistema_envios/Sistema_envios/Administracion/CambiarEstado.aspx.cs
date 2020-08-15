@@ -10,6 +10,7 @@ using System.Web.UI.WebControls;
 
 namespace Sistema_envios.Administracion
 {
+
     public partial class CambiarEstado : System.Web.UI.Page
     {
         private PedidosNegocio pedidosAdministrador;
@@ -21,21 +22,23 @@ namespace Sistema_envios.Administracion
         {
             string idQuery = Request.QueryString["id"];
             string estadoQuery = Request.QueryString["estado"];
-            if (string.IsNullOrWhiteSpace(idQuery) || string.IsNullOrWhiteSpace(estadoQuery))
-            {
-                Response.Redirect("~/Default.aspx");
-                Response.End();
-            }
-            int id = Convert.ToInt32(idQuery);
-            if (estadoQuery == "EnCurso" || estadoQuery == "Enviado")
-            {
-                Pedido pedidoActualizado = pedidosAdministrador.ObtenerPedido(id);
-                Funciones.CambiarEstadoPedido(pedidoActualizado);
-                pedidosAdministrador.ActualizarPedido(pedidoActualizado);
-                Response.Redirect("~/Default.aspx");
-                Response.End();
-            }
 
+            if (!string.IsNullOrWhiteSpace(idQuery) || !string.IsNullOrWhiteSpace(estadoQuery))
+            {
+                int id = Convert.ToInt32(idQuery);
+                if (id > 0)
+                {
+                    if (estadoQuery == "EnCurso" || estadoQuery == "Enviado")
+                    {
+                        Pedido pedidoActualizado = pedidosAdministrador.ObtenerPedido(id);
+                        Funciones.CambiarEstadoPedido(pedidoActualizado);
+                        pedidosAdministrador.ActualizarPedido(pedidoActualizado);
+                    }
+                }
+            }
+            Response.Redirect("~/Default.aspx");
+            Response.End();
         }
     }
+
 }

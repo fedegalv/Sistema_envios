@@ -30,9 +30,9 @@ namespace Pedidos.Negocio
         {
             tareasDataBase.Actualizar(pedido);
         }
-        public void EliminarPedido(int id)
+        public void EliminarPedido(Pedido pedido)
         {
-            tareasDataBase.Eliminar(id);
+            tareasDataBase.Eliminar(pedido);
         }
     }
 }

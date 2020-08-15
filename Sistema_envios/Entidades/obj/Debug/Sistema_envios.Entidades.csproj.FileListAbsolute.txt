@@ -7,7 +7,6 @@ D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Debug\EntityFramework.xml
 D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Debug\EntityFramework.SqlServer.xml
 D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Debug\es\EntityFramework.resources.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Debug\es\EntityFramework.SqlServer.resources.dll
-D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Debug\Sistema_envios.Entidades.csprojAssemblyReference.cache
 D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Debug\Sistema_envios.Entidades.csproj.CoreCompileInputs.cache
 D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Debug\Sistema_envios.Entidades.csproj.CopyComplete
 D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Debug\Entidades.dll

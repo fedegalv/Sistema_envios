@@ -1,11 +1,6 @@
 ﻿using Entidades;
-using Microsoft.AspNet.Identity.EntityFramework;
 using Pedidos.Negocio;
 using System;
-using System.Collections.Generic;
-using System.Data.Entity.Core.Metadata.Edm;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 

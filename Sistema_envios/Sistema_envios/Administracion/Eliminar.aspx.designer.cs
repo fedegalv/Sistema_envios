@@ -11,7 +11,7 @@ namespace Sistema_envios.Administracion
 {
 
 
-    public partial class Editar
+    public partial class Eliminar
     {
 
         /// <summary>
@@ -30,16 +30,7 @@ namespace Sistema_envios.Administracion
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList estadoPedido;
-
-        /// <summary>
-        /// Control calendario.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar calendario;
+        protected global::System.Web.UI.WebControls.TextBox estadoPedido;
 
         /// <summary>
         /// Control fechaEntrega.
@@ -69,12 +60,12 @@ namespace Sistema_envios.Administracion
         protected global::System.Web.UI.WebControls.TextBox montoTotal;
 
         /// <summary>
-        /// Control btnEditar.
+        /// Control btnEliminar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEditar;
+        protected global::System.Web.UI.WebControls.Button btnEliminar;
     }
 }

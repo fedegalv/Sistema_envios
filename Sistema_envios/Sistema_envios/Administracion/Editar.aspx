@@ -1,11 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Editar.aspx.cs" Inherits="Sistema_envios.Administracion.Editar" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    div class="form-horizontal">
+    <div class="form-horizontal">
         <h4>Crear nuevo pedido</h4>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
-        <%-- TEXTBOX PROVEEDOR --%>
+        
         <div class="form-row">
+            <%-- TEXTBOX PROVEEDOR --%>
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="proveedor" CssClass="col-md-2 control-label">proveedor</asp:Label>
                 <div class="col-md-5">
@@ -14,6 +15,7 @@
                         CssClass="text-danger" ErrorMessage="El campo Proveedor es obligatorio." />
                 </div>
             </div>
+            <%-- TEXTBOX ESTADO PEDIDO --%>
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="estadoPedido" CssClass="col-md-4 control-label">Estado pedido: </asp:Label>
                 <div class="col-md-5">
@@ -23,10 +25,10 @@
                 </div>
             </div>
         </div>
-        <%-- CALENDARIO --%>
-
 
         <div class="form-row">
+
+             <%-- CALENDARIO --%>
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="calendario" CssClass="col-md-2 control-label">Calendario: </asp:Label>
 
@@ -39,6 +41,7 @@
                     <TodayDayStyle BackColor="#CCCCCC" />
                 </asp:Calendar>
             </div>
+            <%-- TEXTBOX FECHA DE ENTREGA --%>
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="fechaEntrega" CssClass="col-md-4 control-label">Fecha de entrega:</asp:Label>
                 <div class="col-md-4">
@@ -47,7 +50,6 @@
                         CssClass="text-danger" ErrorMessage="El campo Calendario es obligatorio." />
                 </div>
             </div>
-
         </div>
 
         <div class="form-row">
@@ -73,8 +75,8 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-5">
-                <asp:Button runat="server" ID="btnRegistrar" Text="Registrarse" CssClass="btn btn-primary" OnClick="btnRegistrar_Click" />
+                <asp:Button runat="server" ID="btnEditar" Text="Editar" CssClass="btn btn-primary" OnClick="btnEditar_Click" />
             </div>
         </div>
-    </div>
+    </div>  
 </asp:Content>

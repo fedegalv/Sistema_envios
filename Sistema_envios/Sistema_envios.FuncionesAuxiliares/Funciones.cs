@@ -15,5 +15,6 @@ namespace Sistema_envios.FuncionesAuxiliares
             estadoNum++;
             pedido.EstadoPedido = (EEstadoPedido)estadoNum;
         }
+
     }
 }

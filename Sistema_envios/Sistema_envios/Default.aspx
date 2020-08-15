@@ -51,7 +51,7 @@
                             <a class="btn btn-secondary" href="Administracion/CambiarEstado.aspx?id=<%# Eval("Id") %>&estado=<%# Eval("EstadoPedido")%>" role="button">Enviar</a>
                          </td>
                         <td >
-                            <a class="btn btn-secondary" href="Default.aspx?id=<%# Eval("Id") %>" role="button">Eliminar</a>
+                            <a class="btn btn-secondary" href="Administracion/Eliminar.aspx?id=<%# Eval("Id") %>" role="button">Eliminar</a>
                             <%--<asp:HyperLink id="aExample" runat="server" NavigateUrl="~/Eliminar.aspx?id=<%# Eval("Id") %>" pRUEBA/>--%>
                          </td> 
                             <td >
