@@ -13,6 +13,8 @@ namespace Sistema_envios.Administracion
     public partial class Editar : System.Web.UI.Page
     {
         private PedidosNegocio pedidosAdministrador;
+        private bool hayCambios;
+        private bool cambioFecha;
         public Editar()
         {
             pedidosAdministrador = new PedidosNegocio();
@@ -21,12 +23,14 @@ namespace Sistema_envios.Administracion
         {
             if (!Page.IsPostBack)
             {
+                hayCambios = false;
                 var itemNames = System.Enum.GetNames(typeof(EEstadoPedido));
                 for (int i = 0; i <= itemNames.Length - 1; i++)
                 {
                     ListItem item = new ListItem(itemNames[i], i.ToString());
                     estadoPedido.Items.Add(item);
                 }
+
                 string idQuery = Request.QueryString["id"];
                 if (!idQuery.IsNullOrWhiteSpace())
                 {
@@ -45,14 +49,23 @@ namespace Sistema_envios.Administracion
             }
         }
 
+        public void Text_Changed(Object sender, EventArgs e)
+        {
+            TextBox t = (TextBox)(sender);
+            hayCambios = true;
+            
+        }
+
         protected void Calendario_SelectionChanged(object sender, EventArgs e)
         {
             fechaEntrega.Text = calendario.SelectedDate.ToShortDateString();
+            //cambioFecha = true;
+            hayCambios = true;
         }
         protected void btnEditar_Click(object sender, EventArgs e)
         {
             string idQuery = Request.QueryString["id"];
-            if (!string.IsNullOrWhiteSpace(idQuery))
+            if (!string.IsNullOrWhiteSpace(idQuery) && hayCambios)
             {
                 int id = Convert.ToInt32(idQuery);
                 if (id > 0)
@@ -60,7 +73,9 @@ namespace Sistema_envios.Administracion
                     Pedido pedidoEditado = pedidosAdministrador.ObtenerPedido(id);
 
                     pedidoEditado.Proveedor = proveedor.Text;
-                    pedidoEditado.FechaEntrega = calendario.SelectedDate;
+                    
+                        pedidoEditado.FechaEntrega = DateTime.Parse(fechaEntrega.Text);
+                    
                     pedidoEditado.MontoPagado = float.Parse(montoPagado.Text);
                     pedidoEditado.MontoTotal = float.Parse(montoTotal.Text);
                     pedidoEditado.EstadoPedido = (EEstadoPedido)Enum.Parse(typeof(EEstadoPedido), estadoPedido.Text);

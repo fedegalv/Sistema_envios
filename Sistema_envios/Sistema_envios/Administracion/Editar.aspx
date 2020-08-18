@@ -10,14 +10,14 @@
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="proveedor" CssClass="col-md-2 control-label">proveedor</asp:Label>
                 <div class="col-md-5">
-                    <asp:TextBox runat="server" ID="proveedor" CssClass="form-control" />
+                    <asp:TextBox runat="server" ID="proveedor" OnTextChanged="Text_Changed" CssClass="form-control" />
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="proveedor"
                         CssClass="text-danger" ErrorMessage="El campo Proveedor es obligatorio." />
                 </div>
             </div>
             <%-- TEXTBOX ESTADO PEDIDO --%>
             <div class="form-group col-md-6">
-                <asp:Label runat="server" AssociatedControlID="estadoPedido" CssClass="col-md-4 control-label">Estado pedido: </asp:Label>
+                <asp:Label runat="server" AssociatedControlID="estadoPedido" OnTextChanged="Text_Changed" CssClass="col-md-4 control-label">Estado pedido: </asp:Label>
                 <div class="col-md-5">
                     <asp:DropDownList ID="estadoPedido" runat="server"></asp:DropDownList>
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="estadoPedido"
@@ -45,7 +45,7 @@
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="fechaEntrega" CssClass="col-md-4 control-label">Fecha de entrega:</asp:Label>
                 <div class="col-md-4">
-                    <asp:TextBox runat="server" ID="fechaEntrega" CssClass="form-control" TextMode="DateTime" ReadOnly="True" />
+                    <asp:TextBox runat="server" ID="fechaEntrega" CssClass="form-control"  OnTextChanged="Text_Changed" TextMode="DateTime" ReadOnly="True" />
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="fechaEntrega"
                         CssClass="text-danger" ErrorMessage="El campo Calendario es obligatorio." />
                 </div>
@@ -57,7 +57,7 @@
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="montoPagado" CssClass="col-md-4 control-label">Monto pagado:</asp:Label>
                 <div class="col-md-5">
-                    <asp:TextBox runat="server" ID="montoPagado" CssClass="form-control" TextMode="Number" />
+                    <asp:TextBox runat="server" ID="montoPagado" CssClass="form-control" OnTextChanged="Text_Changed" TextMode="Number" />
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="montoPagado"
                         CssClass="text-danger" ErrorMessage="El campo Monto pagado es obligatorio." />
                 </div>
@@ -66,7 +66,7 @@
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="montoTotal" CssClass="col-md-4 control-label">Monto total:</asp:Label>
                 <div class="col-md-5">
-                    <asp:TextBox runat="server" ID="montoTotal" CssClass="form-control" TextMode="Number" />
+                    <asp:TextBox runat="server" ID="montoTotal" CssClass="form-control" OnTextChanged="Text_Changed" TextMode="Number" />
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="montoTotal"
                         CssClass="text-danger" ErrorMessage="El campo Monto total es obligatorio." />
                 </div>
