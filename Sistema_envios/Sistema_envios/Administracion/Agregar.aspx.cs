@@ -37,7 +37,7 @@ namespace Sistema_envios.Administracion
             Pedido nuevoPedido = new Pedido
             {
                 Proveedor = proveedor.Text,
-                FechaEntrega = calendario.SelectedDate,
+                FechaEntrega = calendario.SelectedDate.Date,
                 MontoPagado = float.Parse(montoPagado.Text),
                 MontoTotal = float.Parse(montoTotal.Text),
                 EstadoPedido = (EEstadoPedido)Enum.Parse(typeof(EEstadoPedido), estadoPedido.Text)

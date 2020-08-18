@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="form-horizontal">
-        <h4>Crear nuevo pedido</h4>
+        <h4>¿Está seguro que desea eliminar el pedido?</h4>
         <hr />
         <div class="form-row">
             <%-- PROVEEDOR --%>
@@ -50,7 +50,7 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-5">
-                <asp:Button runat="server" ID="btnEliminar" Text="Eliminar" CssClass="btn btn-primary" OnClick="btnEliminar_Click" />
+                <asp:Button runat="server" ID="btnEliminar" Text="Eliminar pedido" CssClass="btn btn-primary" OnClick="btnEliminar_Click" />
             </div>
         </div>
     </div>

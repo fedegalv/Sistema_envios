@@ -1,14 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Editar.aspx.cs" Inherits="Sistema_envios.Administracion.Editar" %>
+﻿<%@ Page Title="Editar pedido" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Editar.aspx.cs" Inherits="Sistema_envios.Administracion.Editar" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="form-horizontal">
-        <h4>Crear nuevo pedido</h4>
+        <asp:HiddenField ID="calendarHidden" runat="server" value="calendarFalse" />
+        <h4>Editar pedido: </h4>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
         
         <div class="form-row">
             <%-- TEXTBOX PROVEEDOR --%>
             <div class="form-group col-md-6">
-                <asp:Label runat="server" AssociatedControlID="proveedor" CssClass="col-md-2 control-label">proveedor</asp:Label>
+                <asp:Label runat="server" AssociatedControlID="proveedor" CssClass="col-md-2 control-label">Proveedor</asp:Label>
                 <div class="col-md-5">
                     <asp:TextBox runat="server" ID="proveedor" OnTextChanged="Text_Changed" CssClass="form-control" />
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="proveedor"

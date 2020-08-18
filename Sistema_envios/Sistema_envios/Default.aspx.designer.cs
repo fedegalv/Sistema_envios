@@ -15,12 +15,30 @@ namespace Sistema_envios
     {
 
         /// <summary>
-        /// Control listViewPedidos.
+        /// Control listViewPedidosEncargados.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView listViewPedidos;
+        protected global::System.Web.UI.WebControls.ListView listViewPedidosEncargados;
+
+        /// <summary>
+        /// Control listViePedidosEnviados.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView listViePedidosEnviados;
+
+        /// <summary>
+        /// Control listViewPedidosEntregados.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView listViewPedidosEntregados;
     }
 }

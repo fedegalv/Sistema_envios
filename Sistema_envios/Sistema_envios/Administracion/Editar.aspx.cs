@@ -14,7 +14,6 @@ namespace Sistema_envios.Administracion
     {
         private PedidosNegocio pedidosAdministrador;
         private bool hayCambios;
-        private bool cambioFecha;
         public Editar()
         {
             pedidosAdministrador = new PedidosNegocio();
@@ -53,29 +52,25 @@ namespace Sistema_envios.Administracion
         {
             TextBox t = (TextBox)(sender);
             hayCambios = true;
-            
+
         }
 
         protected void Calendario_SelectionChanged(object sender, EventArgs e)
         {
             fechaEntrega.Text = calendario.SelectedDate.ToShortDateString();
-            //cambioFecha = true;
-            hayCambios = true;
+            calendarHidden.Value = "calendarTrue";
         }
         protected void btnEditar_Click(object sender, EventArgs e)
         {
             string idQuery = Request.QueryString["id"];
-            if (!string.IsNullOrWhiteSpace(idQuery) && hayCambios)
+            if (!string.IsNullOrWhiteSpace(idQuery) && (hayCambios || calendarHidden.Value == "calendarTrue"))
             {
                 int id = Convert.ToInt32(idQuery);
                 if (id > 0)
                 {
                     Pedido pedidoEditado = pedidosAdministrador.ObtenerPedido(id);
-
                     pedidoEditado.Proveedor = proveedor.Text;
-                    
-                        pedidoEditado.FechaEntrega = DateTime.Parse(fechaEntrega.Text);
-                    
+                    pedidoEditado.FechaEntrega = DateTime.Parse(fechaEntrega.Text).Date;
                     pedidoEditado.MontoPagado = float.Parse(montoPagado.Text);
                     pedidoEditado.MontoTotal = float.Parse(montoTotal.Text);
                     pedidoEditado.EstadoPedido = (EEstadoPedido)Enum.Parse(typeof(EEstadoPedido), estadoPedido.Text);

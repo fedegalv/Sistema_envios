@@ -14,7 +14,10 @@ namespace Entidades
         [Required]
         public string Proveedor { get; set; }
         [Required]
-        public DateTime FechaEntrega { get; set; }
+        public DateTime FechaEntrega {
+            get;
+            set;
+        }
         [Required]
         public float MontoPagado { get; set; }
         [Required]

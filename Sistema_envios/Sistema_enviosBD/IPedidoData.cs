@@ -14,5 +14,6 @@ namespace Sistema_enviosBD
         void Agregar(Pedido pedido);
         void Actualizar(Pedido pedido);
         void Eliminar(Pedido pedido);
+        IEnumerable<Pedido> ObtenerTodosFiltrado(EEstadoPedido estadoFiltro);
     }
 }

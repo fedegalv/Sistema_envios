@@ -15,9 +15,20 @@ namespace Sistema_envios
         private PedidosNegocio pedidosNegocio = new PedidosNegocio();
         protected void Page_Load(object sender, EventArgs e)
         {
-            listaPedidos = pedidosNegocio.ListarPedidos().ToList();
-            listViewPedidos.DataSource = listaPedidos;
-            listViewPedidos.DataBind();
+            listaPedidos = pedidosNegocio.ListaPedidosFiltrada(EEstadoPedido.Encargado).ToList();
+            listViewPedidosEncargados.DataSource = listaPedidos;
+            listViewPedidosEncargados.DataBind();
+
+            listaPedidos = pedidosNegocio.ListaPedidosFiltrada(EEstadoPedido.Enviado).ToList();
+            listViePedidosEnviados.DataSource = listaPedidos;
+            listViePedidosEnviados.DataBind();
+
+            listaPedidos = pedidosNegocio.ListaPedidosFiltrada(EEstadoPedido.Entregado).ToList();
+            listViewPedidosEntregados.DataSource = listaPedidos;
+            listViewPedidosEntregados.DataBind();
+
+            //listViewPedidos.DataSource = listaPedidosEncargados;
+            //listViewPedidosEnviados.DataBind();
         }
         //protected void EnviarBtnHandler(Object sender, EventArgs e)
         //{

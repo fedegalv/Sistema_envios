@@ -8,7 +8,7 @@ namespace Entidades
 {
     public enum EEstadoPedido
     {
-        EnCurso,
+        Encargado,
         Enviado,
         Entregado
     }
