@@ -46,20 +46,33 @@
                             <td><%# Eval("MontoPagado")%></td>
                             <td><%# Eval("MontoTotal")%></td>
                             <td><%# Eval("EstadoPedido")%></td>
-                            <loggedintemplate>
-                         <td >
-                            
-                            <a class="btn btn-secondary" href="Administracion/CambiarEstado.aspx?id=<%# Eval("Id") %>&estado=<%# Eval("EstadoPedido")%>" role="button">Enviar</a>
-                         </td>
-                        <td >
-                            <a class="btn btn-secondary" href="Administracion/Eliminar.aspx?id=<%# Eval("Id") %>" role="button">Eliminar</a>
-                         </td> 
-                            <td >
-                            <a class="btn btn-secondary" href="Administracion/Editar.aspx?id=<%# Eval("Id") %>" role="button">Editar</a>
-                         </td>                               
-                     </loggedintemplate>
+
+                            <asp:LoginView ID="LoginView1" runat="server">
+                                <AnonymousTemplate>
+                                    <td></td>
+                                    <td>Disponible para usuarios registrados</td>
+                                </AnonymousTemplate>
+                                <LoggedInTemplate>
+                                    <td>
+                                        <a class="btn btn-secondary" href="Administracion/CambiarEstado.aspx?id=<%# Eval("Id") %>&estado=<%# Eval("EstadoPedido")%>" role="button">Cambiar estado</a>
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-secondary" href="Administracion/Eliminar.aspx?id=<%# Eval("Id") %>" role="button">Eliminar</a>
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-secondary" href="Administracion/Editar.aspx?id=<%# Eval("Id") %>" role="button">Editar</a>
+                                    </td>
+                                </LoggedInTemplate>
+                            </asp:LoginView>
+
+
                         </tr>
                     </ItemTemplate>
+                    <EmptyDataTemplate>
+                        <br />
+                        <strong>No hay pedidos para mostrar</strong>
+                        <br />
+                    </EmptyDataTemplate>
                 </asp:ListView>
             </div>
         </div>
@@ -95,20 +108,31 @@
                             <td><%# Eval("MontoPagado")%></td>
                             <td><%# Eval("MontoTotal")%></td>
                             <td><%# Eval("EstadoPedido")%></td>
-                            <loggedintemplate>
-                         <td >
-                            
-                            <a class="btn btn-secondary" href="Administracion/CambiarEstado.aspx?id=<%# Eval("Id") %>&estado=<%# Eval("EstadoPedido")%>" role="button">Enviar</a>
-                         </td>
-                        <td >
-                            <a class="btn btn-secondary" href="Administracion/Eliminar.aspx?id=<%# Eval("Id") %>" role="button">Eliminar</a>
-                         </td> 
-                            <td >
-                            <a class="btn btn-secondary" href="Administracion/Editar.aspx?id=<%# Eval("Id") %>" role="button">Editar</a>
-                         </td>                               
-                     </loggedintemplate>
+
+                            <asp:LoginView ID="LoginView1" runat="server">
+                                <AnonymousTemplate>
+                                    <td></td>
+                                    <td>Disponible para usuarios registrados</td>
+                                </AnonymousTemplate>
+                                <LoggedInTemplate>
+                                    <td>
+                                        <a class="btn btn-secondary" href="Administracion/CambiarEstado.aspx?id=<%# Eval("Id") %>&estado=<%# Eval("EstadoPedido")%>" role="button">Cambiar estado</a>
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-secondary" href="Administracion/Eliminar.aspx?id=<%# Eval("Id") %>" role="button">Eliminar</a>
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-secondary" href="Administracion/Editar.aspx?id=<%# Eval("Id") %>" role="button">Editar</a>
+                                    </td>
+                                </LoggedInTemplate>
+                            </asp:LoginView>
                         </tr>
                     </ItemTemplate>
+                    <EmptyDataTemplate>
+                        <br />
+                        <strong>No hay pedidos para mostrar</strong>
+                        <br />
+                    </EmptyDataTemplate>
                 </asp:ListView>
             </div>
         </div>
@@ -126,7 +150,10 @@
                                     <th scope="col">Monto pagado</th>
                                     <th scope="col">Monto total</th>
                                     <th scope="col">Estado pedido</th>
-                                    <th scope="col"></th>
+                                    <AnonymousTemplate>
+                                     <th scope="col"></th>
+
+                                    </AnonymousTemplate>
                                     <th scope="col">Acciones</th>
                                 </tr>
                             </thead>
@@ -144,20 +171,29 @@
                             <td><%# Eval("MontoPagado")%></td>
                             <td><%# Eval("MontoTotal")%></td>
                             <td><%# Eval("EstadoPedido")%></td>
-                            <loggedintemplate>
-                         <td >
-                            
-                            <a class="btn btn-secondary" href="Administracion/CambiarEstado.aspx?id=<%# Eval("Id") %>&estado=<%# Eval("EstadoPedido")%>" role="button">Enviar</a>
-                         </td>
-                        <td >
-                            <a class="btn btn-secondary" href="Administracion/Eliminar.aspx?id=<%# Eval("Id") %>" role="button">Eliminar</a>
-                         </td> 
-                            <td >
-                            <a class="btn btn-secondary" href="Administracion/Editar.aspx?id=<%# Eval("Id") %>" role="button">Editar</a>
-                         </td>                               
-                     </loggedintemplate>
+
+                            <asp:LoginView ID="LoginView1" runat="server">
+                                <AnonymousTemplate>
+                                    <td></td>
+                                    <td>Disponible para usuarios registrados</td>
+                                </AnonymousTemplate>
+                                <LoggedInTemplate>
+                                    
+                                    <td>
+                                        <a class="btn btn-secondary" href="Administracion/Eliminar.aspx?id=<%# Eval("Id") %>" role="button">Eliminar</a>
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-secondary" href="Administracion/Editar.aspx?id=<%# Eval("Id") %>" role="button">Editar</a>
+                                    </td>
+                                </LoggedInTemplate>
+                            </asp:LoginView>
                         </tr>
                     </ItemTemplate>
+                    <EmptyDataTemplate>
+                        <br />
+                        <strong>No hay pedidos para mostrar</strong>
+                        <br />
+                    </EmptyDataTemplate>
                 </asp:ListView>
             </div>
         </div>

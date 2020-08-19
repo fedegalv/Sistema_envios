@@ -1,4 +1,3 @@
-D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\EntityFramework.xml
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\Sistema_enviosBD.dll.config
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\Sistema_enviosBD.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\Sistema_enviosBD.pdb
@@ -7,6 +6,7 @@ D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\EntityFramew
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\EntityFramework.SqlServer.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\Entidades.pdb
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\Entidades.dll.config
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\EntityFramework.xml
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\EntityFramework.SqlServer.xml
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\es\EntityFramework.resources.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_enviosBD\bin\Debug\es\EntityFramework.SqlServer.resources.dll

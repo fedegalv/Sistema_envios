@@ -69,6 +69,15 @@ namespace Sistema_envios.Administracion
         protected global::System.Web.UI.WebControls.TextBox montoPagado;
 
         /// <summary>
+        /// Control rangoMontoPagado.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rangoMontoPagado;
+
+        /// <summary>
         /// Control montoTotal.
         /// </summary>
         /// <remarks>
@@ -76,6 +85,15 @@ namespace Sistema_envios.Administracion
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox montoTotal;
+
+        /// <summary>
+        /// Control rangoMontoTotal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rangoMontoTotal;
 
         /// <summary>
         /// Control btnEditar.

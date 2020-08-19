@@ -1,3 +1,5 @@
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\VBCSCompiler.exe
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Sistema_envios.dll.config
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Sistema_envios.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Sistema_envios.pdb
@@ -8,7 +10,6 @@ D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\csi.exe
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\csi.exe.config
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\csi.rsp
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\Microsoft.CodeAnalysis.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
@@ -48,7 +49,6 @@ D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\System.Xml.XP
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\vbc.exe
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\vbc.exe.config
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\vbc.rsp
-D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\VBCSCompiler.exe
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\roslyn\VBCSCompiler.exe.config
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Antlr3.Runtime.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\AspNet.ScriptManager.bootstrap.dll
@@ -77,12 +77,14 @@ D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Microsoft.Web.Infras
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Newtonsoft.Json.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Owin.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Pedidos.Negocio.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Sistema_envios.FuncionesAuxiliares.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\System.Web.Optimization.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\WebGrease.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Sistema_enviosBD.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Entidades.pdb
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Entidades.dll.config
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Pedidos.Negocio.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Sistema_envios.FuncionesAuxiliares.pdb
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\System.Web.Optimization.xml
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Newtonsoft.Json.xml
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Antlr3.Runtime.pdb
@@ -123,5 +125,3 @@ D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\obj\Debug\Sistema_envios
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\obj\Debug\Sistema_envios.Web.csproj.CopyComplete
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\obj\Debug\Sistema_envios.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\obj\Debug\Sistema_envios.pdb
-D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Sistema_envios.FuncionesAuxiliares.dll
-D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios\bin\Sistema_envios.FuncionesAuxiliares.pdb

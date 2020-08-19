@@ -21,7 +21,7 @@
                 <div class="col-md-5">
                     <asp:DropDownList ID="estadoPedido" runat="server"></asp:DropDownList>
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="estadoPedido"
-                        CssClass="text-danger" ErrorMessage="El campo Estado pedido es obligatorio." />
+                        CssClass="text-danger" ErrorMessage="El campo Estado pedido es obligatorio." ForeColor="Red" />
                 </div>
             </div>
         </div>
@@ -56,19 +56,25 @@
             <%-- MONTO PAGADO --%>
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="montoPagado" CssClass="col-md-4 control-label">Monto pagado:</asp:Label>
-                <div class="col-md-5">
-                    <asp:TextBox runat="server" ID="montoPagado" CssClass="form-control" TextMode="Number" />
+                <div class="col-md-4">
+                    <asp:TextBox runat="server" ID="montoPagado"  CssClass="form-control" />
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="montoPagado"
-                        CssClass="text-danger" ErrorMessage="El campo Monto pagado es obligatorio." />
+                        CssClass="text-danger" ErrorMessage="El campo Monto pagado es obligatorio." Display="Dynamic" />
+                    <asp:RegularExpressionValidator ID="rangoMontoPagado" runat="server" ValidationExpression="(?=.*[1-9])((\d+)((\,\d{1,2})?))$"
+                        ErrorMessage="El valor no puede ser menor a cero, ni contener '.'"
+                        ControlToValidate="montoPagado" Display="Dynamic" CssClass="text-danger" />
                 </div>
             </div>
             <%-- MONTO TOTAL --%>
             <div class="form-group col-md-6">
                 <asp:Label runat="server" AssociatedControlID="montoTotal" CssClass="col-md-4 control-label">Monto total:</asp:Label>
-                <div class="col-md-5">
-                    <asp:TextBox runat="server" ID="montoTotal" CssClass="form-control" TextMode="Number" />
+                <div class="col-md-4">
+                    <asp:TextBox runat="server" ID="montoTotal" CssClass="form-control" />
                     <asp:RequiredFieldValidator runat="server" ControlToValidate="montoTotal"
-                        CssClass="text-danger" ErrorMessage="El campo Monto total es obligatorio." />
+                        CssClass="text-danger" ErrorMessage="El campo Monto total es obligatorio." Display="Dynamic" />
+                    <asp:RegularExpressionValidator ID="rangoMontoTotal" runat="server" ValidationExpression="(?=.*[1-9])((\d+)((\,\d{1,2})?))$"
+                        ErrorMessage="El valor no puede ser menor a cero, ni contener '.'"
+                        ControlToValidate="montoTotal" Display="Dynamic" CssClass="text-danger" />
                 </div>
             </div>
         </div>

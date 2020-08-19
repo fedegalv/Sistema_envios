@@ -28,7 +28,7 @@ namespace Sistema_envios.Administracion
                 int id = Convert.ToInt32(idQuery);
                 if (id > 0)
                 {
-                    if (estadoQuery == "EnCurso" || estadoQuery == "Enviado")
+                    if (estadoQuery == "Encargado" || estadoQuery == "Enviado")
                     {
                         Pedido pedidoActualizado = pedidosAdministrador.ObtenerPedido(id);
                         Funciones.CambiarEstadoPedido(pedidoActualizado);

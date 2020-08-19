@@ -19,9 +19,9 @@ namespace Entidades
             set;
         }
         [Required]
-        public float MontoPagado { get; set; }
+        public decimal MontoPagado { get; set; }
         [Required]
-        public float MontoTotal { get; set; }
+        public decimal MontoTotal { get; set; }
         [Required]
         public EEstadoPedido EstadoPedido { get; set; }
     }

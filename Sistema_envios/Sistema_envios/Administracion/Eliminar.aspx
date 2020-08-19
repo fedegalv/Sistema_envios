@@ -26,7 +26,7 @@
             <%-- FECHA ENTREGA --%>
             <div class="form-group col-md-4">
                 <asp:Label runat="server" AssociatedControlID="fechaEntrega" CssClass="col-md control-label">Fecha de entrega:</asp:Label>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <asp:TextBox runat="server" ID="fechaEntrega" CssClass="form-control" TextMode="DateTime" ReadOnly="True" />
                 </div>
             </div>
@@ -34,7 +34,7 @@
             <div class="form-group col-md-4">
                 <asp:Label runat="server" AssociatedControlID="montoPagado" CssClass="col-md control-label">Monto pagado:</asp:Label>
                 <div class="col-md-5">
-                    <asp:TextBox runat="server" ID="montoPagado" CssClass="form-control" TextMode="Number" ReadOnly="True" />
+                    <asp:TextBox runat="server" ID="montoPagado" CssClass="form-control" ReadOnly="True" />
 
                 </div>
             </div>
@@ -42,7 +42,7 @@
             <div class="form-group col-md-4">
                 <asp:Label runat="server" AssociatedControlID="montoTotal" CssClass="col-md control-label">Monto total:</asp:Label>
                 <div class="col-md-5">
-                    <asp:TextBox runat="server" ID="montoTotal" CssClass="form-control" TextMode="Number" ReadOnly="True" />
+                    <asp:TextBox runat="server" ID="montoTotal" CssClass="form-control" ReadOnly="True" />
 
                 </div>
             </div>

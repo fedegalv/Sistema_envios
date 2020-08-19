@@ -27,12 +27,6 @@ namespace Sistema_envios
             listViewPedidosEntregados.DataSource = listaPedidos;
             listViewPedidosEntregados.DataBind();
 
-            //listViewPedidos.DataSource = listaPedidosEncargados;
-            //listViewPedidosEnviados.DataBind();
         }
-        //protected void EnviarBtnHandler(Object sender, EventArgs e)
-        //{
-        //    Response.Redirect("Default.aspx");
-        //}
     }
 }

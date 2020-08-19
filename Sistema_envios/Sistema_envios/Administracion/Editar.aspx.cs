@@ -54,6 +54,11 @@ namespace Sistema_envios.Administracion
             hayCambios = true;
 
         }
+        public void SelectIndexChanged(object sender, EventArgs e)
+        {
+            DropDownList t = (DropDownList)(sender);
+            hayCambios = true;
+        }
 
         protected void Calendario_SelectionChanged(object sender, EventArgs e)
         {
@@ -71,8 +76,8 @@ namespace Sistema_envios.Administracion
                     Pedido pedidoEditado = pedidosAdministrador.ObtenerPedido(id);
                     pedidoEditado.Proveedor = proveedor.Text;
                     pedidoEditado.FechaEntrega = DateTime.Parse(fechaEntrega.Text).Date;
-                    pedidoEditado.MontoPagado = float.Parse(montoPagado.Text);
-                    pedidoEditado.MontoTotal = float.Parse(montoTotal.Text);
+                    pedidoEditado.MontoPagado = decimal.Parse(montoPagado.Text);
+                    pedidoEditado.MontoTotal = decimal.Parse(montoTotal.Text);
                     pedidoEditado.EstadoPedido = (EEstadoPedido)Enum.Parse(typeof(EEstadoPedido), estadoPedido.Text);
                     pedidosAdministrador.ActualizarPedido(pedidoEditado);
 
