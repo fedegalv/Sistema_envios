@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Sistema_envios-20200812125100.mdf;Initial Catalog=aspnet-Sistema_envios-20200812125100;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\ASP\ net\\Sistema_envios\\Sistema_envios\\Sistema_envios\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Model1-Web.config Connection String" description="Model1 Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="data source=(LocalDb)\MSSQLLocalDB;initial catalog=Sistema_envios.Models.Model1;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\ASP\ net\\Sistema_envios\\Sistema_envios\\Sistema_envios\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model1']/@connectionString" />
+  </parameter>
+  <parameter name="EntidadesDbContext-Web.config Connection String" description="EntidadesDbContext Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=LAPTOP-FEDERICO\SQLEXPRESS01; Initial Catalog=SistemaEnvios_BD; Integrated Security=SSPI" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\ASP\ net\\Sistema_envios\\Sistema_envios\\Sistema_envios\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EntidadesDbContext']/@connectionString" />
+  </parameter>
+</parameters>

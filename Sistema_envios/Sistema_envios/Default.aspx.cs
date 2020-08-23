@@ -15,6 +15,7 @@ namespace Sistema_envios
         private PedidosNegocio pedidosNegocio = new PedidosNegocio();
         protected void Page_Load(object sender, EventArgs e)
         {
+
             listaPedidos = pedidosNegocio.ListaPedidosFiltrada(EEstadoPedido.Encargado).ToList();
             listViewPedidosEncargados.DataSource = listaPedidos;
             listViewPedidosEncargados.DataBind();

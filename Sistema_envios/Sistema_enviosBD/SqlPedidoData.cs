@@ -14,7 +14,7 @@ namespace Sistema_enviosBD
         private EntidadesDbContext entidadesDb;
         public SqlPedidoData()
         {
-            entidadesDb= new EntidadesDbContext();
+            entidadesDb = new EntidadesDbContext();
 
         }
         /// <summary>
@@ -53,7 +53,7 @@ namespace Sistema_enviosBD
         /// <returns></returns>
         public Pedido ObtenerPedido(int id)
         {
-            return entidadesDb.Pedidos.FirstOrDefault(p => p.Id == id);
+            return entidadesDb.Pedidos.FirstOrDefault(p => p.IdPedido == id);
         }
         /// <summary>
         /// Obtiene IEnumerable con todos los pedidos

@@ -1,0 +1,16 @@
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\Pedidos.Negocio.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\Pedidos.Negocio.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\Entidades.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\Sistema_enviosBD.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\EntityFramework.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\Entidades.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\Entidades.dll.config
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\Sistema_enviosBD.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\Sistema_enviosBD.dll.config
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\EntityFramework.xml
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\bin\Release\es\EntityFramework.resources.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\obj\Release\Pedidos.Negocio.csprojAssemblyReference.cache
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\obj\Release\Pedidos.Negocio.csproj.CoreCompileInputs.cache
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\obj\Release\Pedidos.Negocio.csproj.CopyComplete
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\obj\Release\Pedidos.Negocio.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Pedidos.Negocio\obj\Release\Pedidos.Negocio.pdb

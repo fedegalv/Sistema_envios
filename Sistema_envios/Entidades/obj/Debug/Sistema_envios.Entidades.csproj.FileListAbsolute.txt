@@ -11,3 +11,4 @@ D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Debug\Sistema_envios.Enti
 D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Debug\Sistema_envios.Entidades.csproj.CopyComplete
 D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Debug\Entidades.dll
 D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Debug\Entidades.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Debug\Sistema_envios.Entidades.csprojAssemblyReference.cache

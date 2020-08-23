@@ -1,0 +1,10 @@
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios.FuncionesAuxiliares\bin\Release\Sistema_envios.FuncionesAuxiliares.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios.FuncionesAuxiliares\bin\Release\Sistema_envios.FuncionesAuxiliares.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios.FuncionesAuxiliares\bin\Release\Entidades.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios.FuncionesAuxiliares\bin\Release\Entidades.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios.FuncionesAuxiliares\bin\Release\Entidades.dll.config
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios.FuncionesAuxiliares\obj\Release\Sistema_envios.FuncionesAuxiliares.csprojAssemblyReference.cache
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios.FuncionesAuxiliares\obj\Release\Sistema_envios.FuncionesAuxiliares.csproj.CoreCompileInputs.cache
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios.FuncionesAuxiliares\obj\Release\Sistema_envios.FuncionesAuxiliares.csproj.CopyComplete
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios.FuncionesAuxiliares\obj\Release\Sistema_envios.FuncionesAuxiliares.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Sistema_envios.FuncionesAuxiliares\obj\Release\Sistema_envios.FuncionesAuxiliares.pdb

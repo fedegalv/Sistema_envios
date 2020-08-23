@@ -1,0 +1,14 @@
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Release\Entidades.dll.config
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Release\Entidades.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Release\Entidades.pdb
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Release\EntityFramework.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Release\EntityFramework.SqlServer.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Release\EntityFramework.xml
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Release\EntityFramework.SqlServer.xml
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Release\es\EntityFramework.resources.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\bin\Release\es\EntityFramework.SqlServer.resources.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Release\Sistema_envios.Entidades.csprojAssemblyReference.cache
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Release\Sistema_envios.Entidades.csproj.CoreCompileInputs.cache
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Release\Sistema_envios.Entidades.csproj.CopyComplete
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Release\Entidades.dll
+D:\ASP net\Sistema_envios\Sistema_envios\Entidades\obj\Release\Entidades.pdb
