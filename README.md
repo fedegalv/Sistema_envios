@@ -1,4 +1,4 @@
-La Web App esta alojada en: http://sistemaenvios-dev-as.azurewebsites.net/
+La Web App esta alojada en: https://sistemaenvios-dev-as.azurewebsites.net/
 
 Para acceder a las herramientas de edicion, creacion, etc se necesita crear un usuario.
 
